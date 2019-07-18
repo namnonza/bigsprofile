@@ -11,14 +11,18 @@ function App() {
   return (
     <div className="App">
       
+      {/* main section for image */}
       <Section height="100vh" customStyle={{ backgroundColor:"gray" }}>
 
+        {/* image overlay */}
         <div className="Overlay-container" />
         
+        {/* top left section */}
         <div style={{ top:"10px" , left:"10px" , position:"absolute" }}>
           top left
         </div>
 
+        {/* bottom left section */}
         <div style={{ bottom:"10px" , left:"10px" , position:"absolute" }} >
           bottom left
         </div>
