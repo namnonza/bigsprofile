@@ -1,15 +1,15 @@
-.Section-container {
+.main-section {
   background-image: url("../static/bigpofilepic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.Section-container div {
+.main-section div {
   color: white;
 }
 
-.Section-container .Overlay-container {
+.main-section .Overlay-container {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
