@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import Section from './components/Section'
 
+import './resources/css/main.css';
 import './App.css';
 import 'antd/dist/antd.css';
 
