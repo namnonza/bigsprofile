@@ -12,6 +12,8 @@ function App() {
     <div className="App">
       
       <Section height="100vh" customStyle={{ backgroundColor:"gray" }}>
+
+        <div className="Overlay-container" />
         
         <div style={{ top:"10px" , left:"10px" , position:"absolute" }}>
           top left
