@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 import Section from './components/Section'
+import Navbar from './Navbar'
 
 import './resources/css/main.css';
 import './App.css';
@@ -19,7 +20,7 @@ function App() {
         
         {/* top left section */}
         <div style={{ top:"10px" , left:"10px" , position:"absolute" }}>
-          top left
+          <Navbar />
         </div>
 
         {/* bottom left section */}
