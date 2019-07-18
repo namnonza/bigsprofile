@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       
       {/* main section for image */}
-      <Section height="100vh" customStyle={{ backgroundColor:"gray" }}>
+      <Section height="100vh" customClass="main-section">
 
         {/* image overlay */}
         <div className="Overlay-container" />
@@ -24,9 +24,16 @@ function App() {
         </div>
 
         {/* bottom left section */}
-        <div style={{ bottom:"10px" , left:"10px" , position:"absolute" }} >
-          bottom left
+        <div style={{ bottom:"10px" , left:"10px" , position:"absolute" , textAlign:"left" }} >
+          <p>i'm big</p>
+          <p> i'm fuck up </p>
         </div>
+
+      </Section>
+
+      <Section height="100vh" customStyle={{ backgroundColor:"black" }}>
+
+        what's up
 
       </Section>
 
