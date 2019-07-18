@@ -4,7 +4,7 @@ import { Button } from 'antd';
 const useInnerHTMLInput = (initialState) => {
     const [ inner, setInner ] = useState(initialState)
 
-    const handleChange = (e) => console.log(e.target.inner)
+    const handleChange = (e) => console.log(e.target)
 
     return [ inner, handleChange ]
 }
