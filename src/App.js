@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
+import Section from './components/Section'
 
 import './App.css';
 import 'antd/dist/antd.css';
@@ -9,9 +10,13 @@ function App() {
   return (
     <div className="App">
       
-      <Button>
-        hello world
-      </Button>
+      <Section height="100vh" customStyle={{ backgroundColor:"gray" }}>
+        
+        <Button>top left</Button>
+
+        <Button>bottom left</Button>
+
+      </Section>
 
     </div>
   );
