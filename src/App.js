@@ -12,13 +12,13 @@ function App() {
       
       <Section height="100vh" customStyle={{ backgroundColor:"gray" }}>
         
-        <Button style={{ top:"10px" , left:"10px" , position:"absolute" }}>
+        <div style={{ top:"10px" , left:"10px" , position:"absolute" }}>
           top left
-        </Button>
+        </div>
 
-        <Button style={{ bottom:"10px" , left:"10px" , position:"absolute" }} >
+        <div style={{ bottom:"10px" , left:"10px" , position:"absolute" }} >
           bottom left
-        </Button>
+        </div>
 
       </Section>
 
